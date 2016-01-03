@@ -35,7 +35,6 @@ private :
 		delete node;
 	}
 public :
-	Node * node_root = nullptr;
 	Store()
 	{
 
@@ -45,7 +44,7 @@ public :
 
 	}
 	Node * create_node(int);
-	void add_node(Node *);
+	void check_color(Node *);
 	void separate_node(Node *);
 };
 
